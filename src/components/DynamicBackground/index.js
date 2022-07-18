@@ -28,7 +28,7 @@ class DynamicBackground extends Component {
        } else {
            return (
                <View style={{ flex: 1, justifyContent: 'center', backgroundColor: color, width: '100%',height: '100%' }}>
-                   <Text>{color}</Text>
+                   <Text>{color} test</Text>
                </View>
            )
        }
