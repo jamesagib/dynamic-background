@@ -1,0 +1,12 @@
+{
+  "displayName": "Dynamic Background",
+  "components": [
+    {
+      "name": "DynamicBackground",
+      "manifest": "./src/components/DynamicBackground/manifest.json"
+    }
+  ],
+  "author": "",
+  "description": "",
+  "logo": "./example-logo.png"
+}

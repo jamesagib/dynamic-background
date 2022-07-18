@@ -1,0 +1,43 @@
+{
+  "displayName": "Dynamic Background",
+  "defaultWidth": 375,
+  "defaultHeight": 661,
+  "resizeX": true,
+  "resizeY": true,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "type",
+      "displayName": "Background Type",
+      "type": "number",
+      "default": 1,
+      "control": {
+        "type": "menu",
+        "options": [
+          { "label": "Image", "value": "image" },
+          { "label": "Color", "value": "color" }
+        ]
+      }
+    },
+    {
+      "name": "color",
+      "displayName": "Background Color",
+      "type": "text",
+      "enabled": {
+        "type": "color"
+      },
+      "default": "#00A898",
+      "helpText": "Make sure color is in HEX, which starts with #"
+    },
+    {
+      "name": "image",
+      "displayName": "Background Image",
+      "type": "image",
+      "enabled": {
+        "type": "image"
+      }
+    }
+  ]
+ }
+ 
